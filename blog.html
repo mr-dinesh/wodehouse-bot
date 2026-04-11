@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Building a P.G. Wodehouse Quote Bot for Bluesky — Vibecoding #5</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:       #1a1a1a;
+      --ink-mid:   #3d3530;
+      --ink-light: #7a6e66;
+      --ink-faint: #b5a99e;
+      --amber:     #D4820A;
+      --bg:        #FAF7F2;
+      --bg-dark:   #F2EDE4;
+      --rule:      #EDE6DA;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink-mid);
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.85;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      background: #1e1a17;
+      color: #c8bfb4;
+      padding: 0;
+    }
+
+    .header-inner {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 32px 48px;
+    }
+
+    .series-tag {
+      font-family: 'Lora', serif;
+      font-size: 11px;
+      font-style: italic;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 18px;
+      display: block;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(28px, 5vw, 44px);
+      font-weight: 900;
+      color: #ede6da;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    .lede {
+      font-family: 'Lora', serif;
+      font-size: 15.5px;
+      font-style: italic;
+      color: #9a8e85;
+      line-height: 1.7;
+      max-width: 560px;
+    }
+
+    .byline {
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      font-size: 12px;
+      color: #6e6460;
+      font-family: 'Lora', serif;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .byline .date { color: var(--amber); }
+
+    article {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 64px 32px 120px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 52px 0 16px;
+      line-height: 1.3;
+    }
+
+    h2:first-of-type { margin-top: 0; }
+
+    p { margin-bottom: 1.4em; }
+    p + p { text-indent: 1.5em; }
+    h2 + p { text-indent: 0; }
+
+    a {
+      color: var(--amber);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(212,130,10,0.3);
+      transition: border-color 0.15s;
+    }
+    a:hover { border-color: var(--amber); }
+
+    blockquote {
+      border-left: 3px solid var(--amber);
+      margin: 32px 0;
+      padding: 14px 20px;
+      background: var(--bg-dark);
+      border-radius: 0 4px 4px 0;
+      font-style: italic;
+      color: var(--ink-mid);
+      font-size: 17px;
+    }
+
+    code {
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+      background: var(--bg-dark);
+      padding: 2px 6px;
+      border-radius: 3px;
+      color: var(--ink);
+      border: 1px solid var(--rule);
+    }
+
+    pre {
+      background: #1e1a17;
+      color: #c8bfb4;
+      padding: 20px 24px;
+      border-radius: 6px;
+      overflow-x: auto;
+      margin: 28px 0;
+      font-size: 13.5px;
+      line-height: 1.6;
+    }
+
+    pre code {
+      background: none;
+      border: none;
+      padding: 0;
+      color: inherit;
+      font-size: inherit;
+    }
+
+    .stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 20px 0 32px;
+    }
+
+    .pill {
+      padding: 4px 12px;
+      background: var(--bg-dark);
+      border: 1px solid var(--rule);
+      border-radius: 20px;
+      font-family: 'Lora', serif;
+      font-size: 12px;
+      font-style: italic;
+      color: var(--ink-light);
+    }
+
+    .ornament {
+      text-align: center;
+      color: var(--amber);
+      font-size: 16px;
+      letter-spacing: 8px;
+      opacity: 0.45;
+      margin: 44px 0;
+      user-select: none;
+    }
+
+    /* Mock Bluesky post card */
+    .bsky-card {
+      background: #fff;
+      border: 1px solid #e1e8ed;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 32px 0;
+      font-family: 'Lora', serif;
+      font-size: 15px;
+      color: #14171a;
+      line-height: 1.6;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+
+    .bsky-card .handle {
+      font-size: 13px;
+      color: #0085ff;
+      margin-bottom: 10px;
+      font-style: normal;
+    }
+
+    .bsky-card .quote-text {
+      font-style: italic;
+      margin-bottom: 8px;
+    }
+
+    .bsky-card .attribution {
+      font-size: 13px;
+      color: #657786;
+    }
+
+    .bsky-card .tags {
+      font-size: 13px;
+      color: #0085ff;
+      margin-top: 8px;
+    }
+
+    .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0 32px;
+      font-size: 16px;
+    }
+
+    .schedule-table th {
+      text-align: left;
+      font-family: 'Lora', serif;
+      font-size: 12px;
+      font-style: italic;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      border-bottom: 1px solid var(--rule);
+      padding: 6px 12px 6px 0;
+    }
+
+    .schedule-table td {
+      padding: 8px 12px 8px 0;
+      border-bottom: 1px solid var(--rule);
+      vertical-align: top;
+    }
+
+    .schedule-table td:first-child {
+      color: var(--amber);
+      font-family: 'Lora', serif;
+      font-style: italic;
+      white-space: nowrap;
+    }
+
+    .screenshot {
+      background: var(--bg-dark);
+      border: 1px solid var(--rule);
+      border-radius: 6px;
+      overflow: hidden;
+      margin: 32px 0;
+    }
+
+    .screenshot img {
+      width: 100%;
+      display: block;
+    }
+
+    .screenshot figcaption {
+      padding: 10px 16px;
+      font-size: 13px;
+      font-style: italic;
+      color: var(--ink-faint);
+      text-align: center;
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 24px;
+      background: var(--amber);
+      color: #fff;
+      border-radius: 6px;
+      font-family: 'Lora', serif;
+      font-size: 14px;
+      font-style: italic;
+      border: none;
+      text-decoration: none;
+    }
+    .cta:hover { background: #b86e06; border-color: transparent; }
+
+    footer {
+      background: #1e1a17;
+      color: #6e6460;
+      text-align: center;
+      padding: 32px;
+      font-family: 'Lora', serif;
+      font-size: 12px;
+      font-style: italic;
+    }
+
+    footer a { color: var(--amber); border-color: transparent; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <span class="series-tag">Vibecoding — Project #5</span>
+    <h1>A Daily Dose of Wodehouse,<br>Delivered to Bluesky</h1>
+    <p class="lede">How I built a P.G. Wodehouse quote bot with a rotating weekly format, zero infrastructure, and one afternoon with Claude Code.</p>
+    <div class="byline">
+      <span>Dinesh</span>
+      <span class="date">April 2026</span>
+      <span>~6 min read</span>
+    </div>
+  </div>
+</header>
+
+<article>
+
+  <h2>The Idea</h2>
+
+  <p>P.G. Wodehouse wrote 97 books. He was also, sentence for sentence, one of the funniest writers in the English language. Most people know Jeeves and Bertie Wooster. Fewer know the Blandings Castle stories, the Mulliner tales, or the sheer density of comic simile he packed into every paragraph.</p>
+
+  <p>I wanted a bot that would surface this — not randomly, but with some structure. A different flavour each day of the week. The similes on Monday (they're the most shareable). Dialogue exchanges on Wednesday, as a thread. Character spotlights on Thursday. And a wildcard on Sunday for whatever didn't fit anywhere else.</p>
+
+  <p>The end result posts to <a href="https://bsky.app/profile/pgwodehousebot.bsky.social" target="_blank">@pgwodehousebot.bsky.social</a> twice daily, runs entirely on GitHub Actions, and costs nothing to operate.</p>
+
+  <div class="ornament">· · ·</div>
+
+  <h2>The Stack</h2>
+
+  <div class="stack">
+    <span class="pill">Python 3.11</span>
+    <span class="pill">atproto (Bluesky SDK)</span>
+    <span class="pill">GitHub Actions</span>
+    <span class="pill">JSON quote library</span>
+  </div>
+
+  <p>No server. No database. No cron daemon. GitHub Actions fires the script twice a day — 7am and 5pm UTC — and the runner exits. The only state is the quotes JSON file checked into the repo.</p>
+
+  <h2>The Format Rotation</h2>
+
+  <p>This was the part I spent the most time thinking about. A bot that just dumps quotes gets boring. What made Wodehouse's writing worth returning to was variety — the way a simile lands differently from a dialogue exchange, which lands differently from a narrator's aside.</p>
+
+  <table class="schedule-table">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Format</th>
+        <th>What it is</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>Simile</td>
+        <td>The pure comparison — Wodehouse's signature move</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Setup + Quote</td>
+        <td>One line of context, then the killer one-liner</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Dialogue</td>
+        <td>A two-post thread — the exchange, then the comeback</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Character Spotlight</td>
+        <td>Who said it, with context about the speaker</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Situation</td>
+        <td>Scene-setting followed by the payoff</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>Simile</td>
+        <td>Another one — they earn a second slot</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>Wildcard</td>
+        <td>Anything that didn't fit elsewhere</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Wednesday's dialogue format posts as a Bluesky thread — the opening exchange first, then the reply. It mirrors how the jokes actually work in the books: you need both halves.</p>
+
+  <h2>What a Post Looks Like</h2>
+
+  <div class="bsky-card">
+    <div class="handle">@pgwodehousebot.bsky.social</div>
+    <div class="quote-text">"He looked like a sheep with a secret sorrow."</div>
+    <div class="attribution">— The Code of the Woosters (1938)</div>
+    <div class="tags">#PGWodehouse #Wodehouse #ClassicLit</div>
+  </div>
+
+  <p>Clean, minimal, attributable. Book title and year on every post, so readers can find the source. Hashtags kept to three — enough for discoverability, not enough to be annoying.</p>
+
+  <figure class="screenshot">
+    <img src="screenshot.jpg" alt="Wodehouse bot post on Bluesky" />
+    <figcaption>A Monday simile post on @pgwodehousebot.bsky.social</figcaption>
+  </figure>
+
+  <h2>The Code</h2>
+
+  <p>The architecture is four files:</p>
+
+  <pre><code>bot.py         # entry point — loads quotes, picks one, posts it
+scheduler.py   # maps day-of-week → format type
+templates.py   # one render function per format
+poster.py      # Bluesky client (atproto)</code></pre>
+
+  <p><code>bot.py</code> stays intentionally thin — argument parsing, quote loading, and a call to <code>publish()</code>. The format logic lives entirely in <code>templates.py</code>; adding a new format means adding one function and one entry in the scheduler's day-map. The quotes are plain JSON, easy to edit by hand or extend with a script.</p>
+
+  <p>For dialogue threads, <code>poster.py</code> sends the first post and passes its <code>uri + cid</code> as the reply reference for the second — the AT Protocol's way of threading:</p>
+
+  <pre><code>ref = post_bluesky(post_text)
+if reply_text:
+    post_bluesky(reply_text, reply_ref=ref)</code></pre>
+
+  <h2>Zero-Server Scheduling</h2>
+
+  <p>The GitHub Actions workflow is eleven lines:</p>
+
+  <pre><code>on:
+  schedule:
+    - cron: '0 7 * * *'    # 07:00 UTC morning
+    - cron: '0 17 * * *'   # 17:00 UTC evening
+  workflow_dispatch:         # manual trigger for testing</code></pre>
+
+  <p>Two secrets in the repo settings — <code>BSKY_HANDLE</code> and <code>BSKY_APP_PASSWORD</code> — and the bot is live. No VPS, no always-on process, no bill at the end of the month.</p>
+
+  <p>The Bluesky App Password is generated from Bluesky's settings page (separate from the account password, scoped to posting only). If it leaks, you revoke it and generate a new one — the account is untouched.</p>
+
+  <div class="ornament">· · ·</div>
+
+  <h2>Vibecoding the Build</h2>
+
+  <p>Built with <strong>Claude Code</strong> in a single session. I described the weekly format rotation, the quote data structure, and the threading requirement for dialogues. Claude scaffolded all four files, wrote the <code>atproto</code> posting client, wired up the GitHub Actions workflow, and suggested keeping the JSON schema minimal enough to be hand-edited.</p>
+
+  <p>The one decision I made myself was splitting the post into two times a day rather than one. Once you have the infrastructure, the marginal cost of a second daily post is zero — and Wodehouse wrote enough that we won't run short.</p>
+
+  <h2>Follow Along</h2>
+
+  <p>The bot is live at <a href="https://bsky.app/profile/pgwodehousebot.bsky.social" target="_blank">@pgwodehousebot.bsky.social</a>. Source is in the <a href="https://github.com" target="_blank">Vibecoding repo</a>.</p>
+
+  <pre><code>git clone https://github.com/your-username/wodehouse-bot
+cd wodehouse-bot
+pip install -r requirements.txt
+python bot.py --dry-run   # preview today's post locally</code></pre>
+
+  <a href="https://bsky.app/profile/pgwodehousebot.bsky.social" class="cta" target="_blank">Follow on Bluesky →</a>
+
+</article>
+
+<footer>
+  Part of the <strong>Vibecoding</strong> series · Built with Claude Code · April 2026
+</footer>
+
+</body>
+</html>

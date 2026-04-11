@@ -1,30 +1,14 @@
 """
-Posting clients for Mastodon and Bluesky.
+Posting client for Bluesky.
 Credentials come from environment variables (GitHub Secrets).
 
 Required env vars:
-  MASTODON_ACCESS_TOKEN   — from mastodon.social account settings
-  MASTODON_API_BASE_URL   — e.g. https://mastodon.social
-  BSKY_HANDLE             — e.g. yourhandle.bsky.social
-  BSKY_APP_PASSWORD       — from Bluesky Settings → App Passwords
+  BSKY_HANDLE       — e.g. yourhandle.bsky.social
+  BSKY_APP_PASSWORD — from Bluesky Settings → App Passwords
 """
 
 import os
-from mastodon import Mastodon
 from atproto import Client as BskyClient
-
-
-def post_mastodon(text: str, reply_to_id=None) -> str:
-    """Posts to Mastodon. Returns the new post ID (for thread replies)."""
-    m = Mastodon(
-        access_token=os.environ["MASTODON_ACCESS_TOKEN"],
-        api_base_url=os.environ["MASTODON_API_BASE_URL"],
-    )
-    kwargs = {"status": text, "visibility": "public"}
-    if reply_to_id:
-        kwargs["in_reply_to_id"] = reply_to_id
-    result = m.status_post(**kwargs)
-    return result["id"]
 
 
 def post_bluesky(text: str, reply_ref=None) -> dict:
@@ -38,17 +22,7 @@ def post_bluesky(text: str, reply_ref=None) -> dict:
 
 
 def publish(post_text: str, reply_text: str | None):
-    """Publishes to both platforms. Handles threads for dialogues."""
-    # Mastodon
-    try:
-        post_id = post_mastodon(post_text)
-        if reply_text:
-            post_mastodon(reply_text, reply_to_id=post_id)
-        print("Mastodon: posted")
-    except Exception as e:
-        print(f"Mastodon error: {e}")
-
-    # Bluesky
+    """Publishes to Bluesky. Handles threads for dialogues."""
     try:
         ref = post_bluesky(post_text)
         if reply_text:

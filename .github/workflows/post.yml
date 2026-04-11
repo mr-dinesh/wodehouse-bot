@@ -21,8 +21,6 @@ jobs:
 
       - name: Post quote
         env:
-          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
-          MASTODON_API_BASE_URL: ${{ secrets.MASTODON_API_BASE_URL }}
           BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
         run: python bot.py
