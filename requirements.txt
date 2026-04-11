@@ -1,0 +1,2 @@
+Mastodon.py>=1.8
+atproto>=0.0.46

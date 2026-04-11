@@ -1,0 +1,228 @@
+[
+  {
+    "id": 1,
+    "text": "He looked like a sheep with a secret sorrow.",
+    "character": "Narrator",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "appearance", "Spode"]
+  },
+  {
+    "id": 2,
+    "text": "She looked at me as if I were some sort of strange insect that had crawled out from under a flat stone.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "Aunt Agatha", "Bertie"]
+  },
+  {
+    "id": 3,
+    "text": "The laughs, which had started well, faded like a bugle call in a distant wood.",
+    "character": "Narrator",
+    "book": "Carry On, Jeeves",
+    "year": 1925,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "laughter", "atmosphere"]
+  },
+  {
+    "id": 4,
+    "text": "It is never difficult to distinguish between a Scotsman with a grievance and a ray of sunshine.",
+    "character": "Narrator",
+    "book": "Blandings Castle and Elsewhere",
+    "year": 1935,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "Blandings", "Scotland"]
+  },
+  {
+    "id": 5,
+    "text": "She fitted into my biggest armchair as if it had been built round her by someone who knew they were wearing armchairs tight about the hips that season.",
+    "character": "Bertie",
+    "book": "The Mating Season",
+    "year": 1949,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "appearance", "Bertie"]
+  },
+  {
+    "id": 6,
+    "text": "I'm not absolutely certain of my facts, but I rather fancy it's Shakespeare who says that it's always just when a fellow is feeling particularly braced with things in general that Fate sneaks up behind him with the bit of lead piping.",
+    "character": "Bertie",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "setup_quote",
+    "setup": "Bertie, briefly at peace with the world, on the nature of his luck:",
+    "dialogue_response": null,
+    "tags": ["Bertie", "fate", "Shakespeare", "philosophy"]
+  },
+  {
+    "id": 7,
+    "text": "There is only one cure for grey hair. It was invented by a Frenchman. It is called the guillotine.",
+    "character": "Narrator",
+    "book": "The Old Reliable",
+    "year": 1951,
+    "format": "setup_quote",
+    "setup": "On the subject of ageing gracefully:",
+    "dialogue_response": null,
+    "tags": ["setup_quote", "age", "wit"]
+  },
+  {
+    "id": 8,
+    "text": "It is a good rule in life never to apologize. The right sort of people do not want apologies, and the wrong sort take a mean advantage of them.",
+    "character": "Narrator",
+    "book": "The Man Upstairs",
+    "year": 1914,
+    "format": "setup_quote",
+    "setup": "On the wisdom of apologies:",
+    "dialogue_response": null,
+    "tags": ["setup_quote", "advice", "apologies", "life"]
+  },
+  {
+    "id": 9,
+    "text": "The voice of Love seemed to call to me, but it was a wrong number.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "setup_quote",
+    "setup": "Bertie, reflecting on a romantic entanglement that was not going as hoped:",
+    "dialogue_response": null,
+    "tags": ["setup_quote", "love", "Bertie", "romance"]
+  },
+  {
+    "id": 10,
+    "text": "Jeeves, I have an idea.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "dialogue",
+    "setup": "On being asked to resolve a situation entirely of his own making:",
+    "dialogue_response": {
+      "text": "I would advise against it, sir.",
+      "character": "Jeeves"
+    },
+    "tags": ["dialogue", "Jeeves", "Bertie", "ideas"]
+  },
+  {
+    "id": 11,
+    "text": "I don't know if you have had the same experience, but one of the drawbacks of being engaged to one girl while you are in love with another is that conversations with the former are apt to become a little difficult.",
+    "character": "Bertie",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "dialogue",
+    "setup": "Bertie, on the complications of his current romantic situation:",
+    "dialogue_response": {
+      "text": "If I might suggest, sir, a brief period of silence would serve you admirably at this juncture.",
+      "character": "Jeeves"
+    },
+    "tags": ["dialogue", "Bertie", "Jeeves", "romance", "engagements"]
+  },
+  {
+    "id": 12,
+    "text": "Aunt Agatha is not a woman who is lightly thwarted.",
+    "character": "Bertie",
+    "book": "The Inimitable Jeeves",
+    "year": 1923,
+    "format": "character_spotlight",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["character_spotlight", "Aunt Agatha", "Bertie"]
+  },
+  {
+    "id": 13,
+    "text": "Lord Emsworth's attention had been riveted, from the very first moment, on the Empress of Blandings. She was looking even more rotund and beautiful than ever.",
+    "character": "Narrator",
+    "book": "Summer Lightning",
+    "year": 1929,
+    "format": "character_spotlight",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["character_spotlight", "Emsworth", "Blandings", "Empress"]
+  },
+  {
+    "id": 14,
+    "text": "Comrade, I am with you. Let us go and baffle them.",
+    "character": "Psmith",
+    "book": "Psmith in the City",
+    "year": 1910,
+    "format": "character_spotlight",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["character_spotlight", "Psmith", "camaraderie"]
+  },
+  {
+    "id": 15,
+    "text": "My Aunt Agatha, the one who chews broken bottles and kills rats with her teeth.",
+    "character": "Bertie",
+    "book": "The Inimitable Jeeves",
+    "year": 1923,
+    "format": "situation",
+    "setup": "On Aunts:",
+    "dialogue_response": null,
+    "tags": ["situation", "Aunt Agatha", "Bertie", "aunts"]
+  },
+  {
+    "id": 16,
+    "text": "I was so darned sorry for poor old Corky that I hadn't the heart to touch my breakfast. I told Jeeves to drink it himself.",
+    "character": "Bertie",
+    "book": "Carry On, Jeeves",
+    "year": 1925,
+    "format": "situation",
+    "setup": "On sympathy:",
+    "dialogue_response": null,
+    "tags": ["situation", "Bertie", "sympathy", "breakfast"]
+  },
+  {
+    "id": 17,
+    "text": "It was one of those cases where you approve the broad, general principle of an idea but can't help being a bit doubtful about how it will work out in practice.",
+    "character": "Bertie",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "situation",
+    "setup": "On Plans:",
+    "dialogue_response": null,
+    "tags": ["situation", "Bertie", "plans", "doubt"]
+  },
+  {
+    "id": 18,
+    "text": "I always advise people never to give advice.",
+    "character": "Pelham Grenville Wodehouse",
+    "book": "Performing Flea",
+    "year": 1953,
+    "format": "wildcard",
+    "setup": "PG Wodehouse, on the subject of advice:",
+    "dialogue_response": null,
+    "tags": ["wildcard", "Wodehouse", "meta", "advice"]
+  },
+  {
+    "id": 19,
+    "text": "There is no surer foundation for a beautiful friendship than a mutual taste in literature.",
+    "character": "Narrator",
+    "book": "The Adventures of Sally",
+    "year": 1922,
+    "format": "wildcard",
+    "setup": "On the basis of true friendship:",
+    "dialogue_response": null,
+    "tags": ["wildcard", "friendship", "books", "literature"]
+  },
+  {
+    "id": 20,
+    "text": "Uncle Fred was a man who went about the world scattering light-heartedness as a dog scatters fleas.",
+    "character": "Narrator",
+    "book": "Uncle Fred in the Springtime",
+    "year": 1939,
+    "format": "wildcard",
+    "setup": "On Frederick Altamont Cornwallis Twistleton, 5th Earl of Ickenham:",
+    "dialogue_response": null,
+    "tags": ["wildcard", "Uncle Fred", "Ickenham", "simile"]
+  }
+]

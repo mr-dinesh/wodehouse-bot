@@ -1,0 +1,28 @@
+name: Post Wodehouse Quote
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 07:00 UTC — morning
+    - cron: '0 17 * * *'  # 17:00 UTC — evening
+  workflow_dispatch:        # manual trigger for testing
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Post quote
+        env:
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          MASTODON_API_BASE_URL: ${{ secrets.MASTODON_API_BASE_URL }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: python bot.py
