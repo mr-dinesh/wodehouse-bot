@@ -224,5 +224,234 @@
     "setup": "On Frederick Altamont Cornwallis Twistleton, 5th Earl of Ickenham:",
     "dialogue_response": null,
     "tags": ["wildcard", "Uncle Fred", "Ickenham", "simile"]
+  },
+  {
+    "id": 21,
+    "text": "He looked as if he had been poured into his clothes and had forgotten to say 'when'.",
+    "character": "Narrator",
+    "book": "Very Good, Jeeves",
+    "year": 1930,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "appearance", "Bertie"]
+  },
+  {
+    "id": 22,
+    "text": "She entered the room in the manner of one who has just received a nasty letter from the income-tax authorities.",
+    "character": "Narrator",
+    "book": "Jeeves in the Offing",
+    "year": 1960,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "entrance", "atmosphere"]
+  },
+  {
+    "id": 23,
+    "text": "He moved through the crowd with the easy grace of a carthorse making its way through a field of standing corn.",
+    "character": "Narrator",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "movement", "Tuppy"]
+  },
+  {
+    "id": 24,
+    "text": "She looked at me the way my Aunt Agatha looks at a caterpillar she has found in her head of lettuce.",
+    "character": "Bertie",
+    "book": "The Mating Season",
+    "year": 1949,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "Bertie", "disapproval"]
+  },
+  {
+    "id": 25,
+    "text": "He wore the expression of a man who has just discovered that a loved one has been at the whisky.",
+    "character": "Narrator",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "expression", "dismay"]
+  },
+  {
+    "id": 26,
+    "text": "She sagged. Not much, but perceptibly — like a leaky tyre.",
+    "character": "Narrator",
+    "book": "Thank You, Jeeves",
+    "year": 1934,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "posture", "deflation"]
+  },
+  {
+    "id": 27,
+    "text": "He sprang to his feet with the agility of a man of sixty-five who has been stung by a wasp.",
+    "character": "Narrator",
+    "book": "Uncle Fred in the Springtime",
+    "year": 1939,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["simile", "Emsworth", "agility", "surprise"]
+  },
+  {
+    "id": 28,
+    "text": "Never put anything on paper, my boy, and never trust a man with a small black moustache.",
+    "character": "Bertie",
+    "book": "Carry On, Jeeves",
+    "year": 1925,
+    "format": "setup_quote",
+    "setup": "Bertie, passing on the sum total of his uncle's worldly wisdom:",
+    "dialogue_response": null,
+    "tags": ["setup_quote", "Bertie", "advice", "wisdom"]
+  },
+  {
+    "id": 29,
+    "text": "You can't be a successful Dictator and design women's hats. One or the other. Both is out.",
+    "character": "Narrator",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "setup_quote",
+    "setup": "On Roderick Spode and his side venture into fashion:",
+    "dialogue_response": null,
+    "tags": ["setup_quote", "Spode", "wit", "fashion"]
+  },
+  {
+    "id": 30,
+    "text": "Success comes to a writer, as a rule, so gradually that it is always something of a shock to him to look back and realize the heights to which he has climbed.",
+    "character": "Pelham Grenville Wodehouse",
+    "book": "Performing Flea",
+    "year": 1953,
+    "format": "setup_quote",
+    "setup": "PG Wodehouse, reflecting on a career in letters:",
+    "dialogue_response": null,
+    "tags": ["setup_quote", "Wodehouse", "writing", "success"]
+  },
+  {
+    "id": 31,
+    "text": "She was a girl who was more or less moulded on the lines of Cleopatra, and personally I have always thought that if Cleopatra had been a bit taller and her hair a bit darker she might have looked rather like Corky.",
+    "character": "Bertie",
+    "book": "Carry On, Jeeves",
+    "year": 1925,
+    "format": "setup_quote",
+    "setup": "Bertie, attempting to describe a female acquaintance:",
+    "dialogue_response": null,
+    "tags": ["setup_quote", "Bertie", "beauty", "romance"]
+  },
+  {
+    "id": 32,
+    "text": "Bertie, you are an ass.",
+    "character": "Aunt Dahlia",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "dialogue",
+    "setup": "After Bertie presents what he considers a perfectly sound scheme:",
+    "dialogue_response": {
+      "text": "Yes, Aunt Dahlia.",
+      "character": "Bertie"
+    },
+    "tags": ["dialogue", "Aunt Dahlia", "Bertie", "schemes"]
+  },
+  {
+    "id": 33,
+    "text": "Jeeves, what would I do without you?",
+    "character": "Bertie",
+    "book": "Thank You, Jeeves",
+    "year": 1934,
+    "format": "dialogue",
+    "setup": "Bertie, emerging unscathed from yet another entanglement:",
+    "dialogue_response": {
+      "text": "It is to be hoped, sir, that the occasion for such a contingency will not arise.",
+      "character": "Jeeves"
+    },
+    "tags": ["dialogue", "Bertie", "Jeeves", "gratitude"]
+  },
+  {
+    "id": 34,
+    "text": "Bingo, old fruit, you can't keep falling in love with a different girl every two weeks.",
+    "character": "Bertie",
+    "book": "The Inimitable Jeeves",
+    "year": 1923,
+    "format": "dialogue",
+    "setup": "Bertie, attempting to counsel his oldest friend Bingo Little:",
+    "dialogue_response": {
+      "text": "I know, Bertie. And yet it keeps happening.",
+      "character": "Bingo"
+    },
+    "tags": ["dialogue", "Bertie", "Bingo", "love", "romance"]
+  },
+  {
+    "id": 35,
+    "text": "Gussie Fink-Nottle was a man who devoted his life to the study of the newt in all its facets and ramifications.",
+    "character": "Narrator",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "character_spotlight",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["character_spotlight", "Gussie", "newts", "nature"]
+  },
+  {
+    "id": 36,
+    "text": "Aunt Dahlia is the one decent aunt left to me — a large, hearty woman who hunts and shoots and is a bit free with the language but fundamentally sound.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "character_spotlight",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["character_spotlight", "Aunt Dahlia", "Bertie", "aunts"]
+  },
+  {
+    "id": 37,
+    "text": "Madeleine Bassett held the view that the stars were God's daisy chain, and cried when she saw a dead kitten. I had never met anyone like her before, and felt I could readily get on without meeting anyone like her again.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "character_spotlight",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": ["character_spotlight", "Madeleine Bassett", "Bertie", "romance"]
+  },
+  {
+    "id": 38,
+    "text": "It is a curious thing about engagements. They come upon you suddenly, and before you know it you are in the soup.",
+    "character": "Bertie",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "situation",
+    "setup": "On becoming engaged, again:",
+    "dialogue_response": null,
+    "tags": ["situation", "Bertie", "engagement", "romance"]
+  },
+  {
+    "id": 39,
+    "text": "I turned to Aunt Agatha, whose demeanour was now rather like that of one who, picking daisies on the railway track, has just caught the down express in the small of the back.",
+    "character": "Bertie",
+    "book": "The Inimitable Jeeves",
+    "year": 1923,
+    "format": "situation",
+    "setup": "When a scheme, for once, does not go as Aunt Agatha planned:",
+    "dialogue_response": null,
+    "tags": ["situation", "Aunt Agatha", "Bertie", "surprise"]
+  },
+  {
+    "id": 40,
+    "text": "The only reason I went to school was to improve my mind, but I am bound to confess that the process took a good deal of time.",
+    "character": "Bertie",
+    "book": "Very Good, Jeeves",
+    "year": 1930,
+    "format": "situation",
+    "setup": "Bertie, on the formative years:",
+    "dialogue_response": null,
+    "tags": ["situation", "Bertie", "school", "self-deprecation"]
   }
 ]
