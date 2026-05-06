@@ -8,7 +8,11 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "appearance", "Spode"]
+    "tags": [
+      "simile",
+      "appearance",
+      "Spode"
+    ]
   },
   {
     "id": 2,
@@ -19,7 +23,11 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "Aunt Agatha", "Bertie"]
+    "tags": [
+      "simile",
+      "Aunt Agatha",
+      "Bertie"
+    ]
   },
   {
     "id": 3,
@@ -30,7 +38,11 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "laughter", "atmosphere"]
+    "tags": [
+      "simile",
+      "laughter",
+      "atmosphere"
+    ]
   },
   {
     "id": 4,
@@ -41,7 +53,11 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "Blandings", "Scotland"]
+    "tags": [
+      "simile",
+      "Blandings",
+      "Scotland"
+    ]
   },
   {
     "id": 5,
@@ -52,7 +68,11 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "appearance", "Bertie"]
+    "tags": [
+      "simile",
+      "appearance",
+      "Bertie"
+    ]
   },
   {
     "id": 6,
@@ -63,7 +83,12 @@
     "format": "setup_quote",
     "setup": "Bertie, briefly at peace with the world, on the nature of his luck:",
     "dialogue_response": null,
-    "tags": ["Bertie", "fate", "Shakespeare", "philosophy"]
+    "tags": [
+      "Bertie",
+      "fate",
+      "Shakespeare",
+      "philosophy"
+    ]
   },
   {
     "id": 7,
@@ -74,7 +99,11 @@
     "format": "setup_quote",
     "setup": "On the subject of ageing gracefully:",
     "dialogue_response": null,
-    "tags": ["setup_quote", "age", "wit"]
+    "tags": [
+      "setup_quote",
+      "age",
+      "wit"
+    ]
   },
   {
     "id": 8,
@@ -85,7 +114,12 @@
     "format": "setup_quote",
     "setup": "On the wisdom of apologies:",
     "dialogue_response": null,
-    "tags": ["setup_quote", "advice", "apologies", "life"]
+    "tags": [
+      "setup_quote",
+      "advice",
+      "apologies",
+      "life"
+    ]
   },
   {
     "id": 9,
@@ -96,7 +130,12 @@
     "format": "setup_quote",
     "setup": "Bertie, reflecting on a romantic entanglement that was not going as hoped:",
     "dialogue_response": null,
-    "tags": ["setup_quote", "love", "Bertie", "romance"]
+    "tags": [
+      "setup_quote",
+      "love",
+      "Bertie",
+      "romance"
+    ]
   },
   {
     "id": 10,
@@ -110,7 +149,12 @@
       "text": "I would advise against it, sir.",
       "character": "Jeeves"
     },
-    "tags": ["dialogue", "Jeeves", "Bertie", "ideas"]
+    "tags": [
+      "dialogue",
+      "Jeeves",
+      "Bertie",
+      "ideas"
+    ]
   },
   {
     "id": 11,
@@ -124,7 +168,13 @@
       "text": "If I might suggest, sir, a brief period of silence would serve you admirably at this juncture.",
       "character": "Jeeves"
     },
-    "tags": ["dialogue", "Bertie", "Jeeves", "romance", "engagements"]
+    "tags": [
+      "dialogue",
+      "Bertie",
+      "Jeeves",
+      "romance",
+      "engagements"
+    ]
   },
   {
     "id": 12,
@@ -135,7 +185,11 @@
     "format": "character_spotlight",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["character_spotlight", "Aunt Agatha", "Bertie"]
+    "tags": [
+      "character_spotlight",
+      "Aunt Agatha",
+      "Bertie"
+    ]
   },
   {
     "id": 13,
@@ -146,7 +200,12 @@
     "format": "character_spotlight",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["character_spotlight", "Emsworth", "Blandings", "Empress"]
+    "tags": [
+      "character_spotlight",
+      "Emsworth",
+      "Blandings",
+      "Empress"
+    ]
   },
   {
     "id": 14,
@@ -157,7 +216,11 @@
     "format": "character_spotlight",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["character_spotlight", "Psmith", "camaraderie"]
+    "tags": [
+      "character_spotlight",
+      "Psmith",
+      "camaraderie"
+    ]
   },
   {
     "id": 15,
@@ -168,7 +231,12 @@
     "format": "situation",
     "setup": "On Aunts:",
     "dialogue_response": null,
-    "tags": ["situation", "Aunt Agatha", "Bertie", "aunts"]
+    "tags": [
+      "situation",
+      "Aunt Agatha",
+      "Bertie",
+      "aunts"
+    ]
   },
   {
     "id": 16,
@@ -179,7 +247,12 @@
     "format": "situation",
     "setup": "On sympathy:",
     "dialogue_response": null,
-    "tags": ["situation", "Bertie", "sympathy", "breakfast"]
+    "tags": [
+      "situation",
+      "Bertie",
+      "sympathy",
+      "breakfast"
+    ]
   },
   {
     "id": 17,
@@ -190,7 +263,12 @@
     "format": "situation",
     "setup": "On Plans:",
     "dialogue_response": null,
-    "tags": ["situation", "Bertie", "plans", "doubt"]
+    "tags": [
+      "situation",
+      "Bertie",
+      "plans",
+      "doubt"
+    ]
   },
   {
     "id": 18,
@@ -201,7 +279,12 @@
     "format": "wildcard",
     "setup": "PG Wodehouse, on the subject of advice:",
     "dialogue_response": null,
-    "tags": ["wildcard", "Wodehouse", "meta", "advice"]
+    "tags": [
+      "wildcard",
+      "Wodehouse",
+      "meta",
+      "advice"
+    ]
   },
   {
     "id": 19,
@@ -212,7 +295,12 @@
     "format": "wildcard",
     "setup": "On the basis of true friendship:",
     "dialogue_response": null,
-    "tags": ["wildcard", "friendship", "books", "literature"]
+    "tags": [
+      "wildcard",
+      "friendship",
+      "books",
+      "literature"
+    ]
   },
   {
     "id": 20,
@@ -223,7 +311,12 @@
     "format": "wildcard",
     "setup": "On Frederick Altamont Cornwallis Twistleton, 5th Earl of Ickenham:",
     "dialogue_response": null,
-    "tags": ["wildcard", "Uncle Fred", "Ickenham", "simile"]
+    "tags": [
+      "wildcard",
+      "Uncle Fred",
+      "Ickenham",
+      "simile"
+    ]
   },
   {
     "id": 21,
@@ -234,7 +327,11 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "appearance", "Bertie"]
+    "tags": [
+      "simile",
+      "appearance",
+      "Bertie"
+    ]
   },
   {
     "id": 22,
@@ -245,7 +342,11 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "entrance", "atmosphere"]
+    "tags": [
+      "simile",
+      "entrance",
+      "atmosphere"
+    ]
   },
   {
     "id": 23,
@@ -256,7 +357,11 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "movement", "Tuppy"]
+    "tags": [
+      "simile",
+      "movement",
+      "Tuppy"
+    ]
   },
   {
     "id": 24,
@@ -267,7 +372,11 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "Bertie", "disapproval"]
+    "tags": [
+      "simile",
+      "Bertie",
+      "disapproval"
+    ]
   },
   {
     "id": 25,
@@ -278,7 +387,11 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "expression", "dismay"]
+    "tags": [
+      "simile",
+      "expression",
+      "dismay"
+    ]
   },
   {
     "id": 26,
@@ -289,7 +402,11 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "posture", "deflation"]
+    "tags": [
+      "simile",
+      "posture",
+      "deflation"
+    ]
   },
   {
     "id": 27,
@@ -300,7 +417,12 @@
     "format": "simile",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["simile", "Emsworth", "agility", "surprise"]
+    "tags": [
+      "simile",
+      "Emsworth",
+      "agility",
+      "surprise"
+    ]
   },
   {
     "id": 28,
@@ -311,7 +433,12 @@
     "format": "setup_quote",
     "setup": "Bertie, passing on the sum total of his uncle's worldly wisdom:",
     "dialogue_response": null,
-    "tags": ["setup_quote", "Bertie", "advice", "wisdom"]
+    "tags": [
+      "setup_quote",
+      "Bertie",
+      "advice",
+      "wisdom"
+    ]
   },
   {
     "id": 29,
@@ -322,7 +449,12 @@
     "format": "setup_quote",
     "setup": "On Roderick Spode and his side venture into fashion:",
     "dialogue_response": null,
-    "tags": ["setup_quote", "Spode", "wit", "fashion"]
+    "tags": [
+      "setup_quote",
+      "Spode",
+      "wit",
+      "fashion"
+    ]
   },
   {
     "id": 30,
@@ -333,7 +465,12 @@
     "format": "setup_quote",
     "setup": "PG Wodehouse, reflecting on a career in letters:",
     "dialogue_response": null,
-    "tags": ["setup_quote", "Wodehouse", "writing", "success"]
+    "tags": [
+      "setup_quote",
+      "Wodehouse",
+      "writing",
+      "success"
+    ]
   },
   {
     "id": 31,
@@ -344,7 +481,12 @@
     "format": "setup_quote",
     "setup": "Bertie, attempting to describe a female acquaintance:",
     "dialogue_response": null,
-    "tags": ["setup_quote", "Bertie", "beauty", "romance"]
+    "tags": [
+      "setup_quote",
+      "Bertie",
+      "beauty",
+      "romance"
+    ]
   },
   {
     "id": 32,
@@ -358,7 +500,12 @@
       "text": "Yes, Aunt Dahlia.",
       "character": "Bertie"
     },
-    "tags": ["dialogue", "Aunt Dahlia", "Bertie", "schemes"]
+    "tags": [
+      "dialogue",
+      "Aunt Dahlia",
+      "Bertie",
+      "schemes"
+    ]
   },
   {
     "id": 33,
@@ -372,7 +519,12 @@
       "text": "It is to be hoped, sir, that the occasion for such a contingency will not arise.",
       "character": "Jeeves"
     },
-    "tags": ["dialogue", "Bertie", "Jeeves", "gratitude"]
+    "tags": [
+      "dialogue",
+      "Bertie",
+      "Jeeves",
+      "gratitude"
+    ]
   },
   {
     "id": 34,
@@ -386,7 +538,13 @@
       "text": "I know, Bertie. And yet it keeps happening.",
       "character": "Bingo"
     },
-    "tags": ["dialogue", "Bertie", "Bingo", "love", "romance"]
+    "tags": [
+      "dialogue",
+      "Bertie",
+      "Bingo",
+      "love",
+      "romance"
+    ]
   },
   {
     "id": 35,
@@ -397,7 +555,12 @@
     "format": "character_spotlight",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["character_spotlight", "Gussie", "newts", "nature"]
+    "tags": [
+      "character_spotlight",
+      "Gussie",
+      "newts",
+      "nature"
+    ]
   },
   {
     "id": 36,
@@ -408,7 +571,12 @@
     "format": "character_spotlight",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["character_spotlight", "Aunt Dahlia", "Bertie", "aunts"]
+    "tags": [
+      "character_spotlight",
+      "Aunt Dahlia",
+      "Bertie",
+      "aunts"
+    ]
   },
   {
     "id": 37,
@@ -419,7 +587,12 @@
     "format": "character_spotlight",
     "setup": null,
     "dialogue_response": null,
-    "tags": ["character_spotlight", "Madeleine Bassett", "Bertie", "romance"]
+    "tags": [
+      "character_spotlight",
+      "Madeleine Bassett",
+      "Bertie",
+      "romance"
+    ]
   },
   {
     "id": 38,
@@ -430,7 +603,12 @@
     "format": "situation",
     "setup": "On becoming engaged, again:",
     "dialogue_response": null,
-    "tags": ["situation", "Bertie", "engagement", "romance"]
+    "tags": [
+      "situation",
+      "Bertie",
+      "engagement",
+      "romance"
+    ]
   },
   {
     "id": 39,
@@ -441,7 +619,12 @@
     "format": "situation",
     "setup": "When a scheme, for once, does not go as Aunt Agatha planned:",
     "dialogue_response": null,
-    "tags": ["situation", "Aunt Agatha", "Bertie", "surprise"]
+    "tags": [
+      "situation",
+      "Aunt Agatha",
+      "Bertie",
+      "surprise"
+    ]
   },
   {
     "id": 40,
@@ -452,6 +635,450 @@
     "format": "situation",
     "setup": "Bertie, on the formative years:",
     "dialogue_response": null,
-    "tags": ["situation", "Bertie", "school", "self-deprecation"]
+    "tags": [
+      "situation",
+      "Bertie",
+      "school",
+      "self-deprecation"
+    ]
+  },
+  {
+    "id": 41,
+    "text": "He had the look of one who has drunk the cup of life and found a dead beetle at the bottom.",
+    "character": "Narrator",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": [
+      "simile",
+      "appearance",
+      "melancholy"
+    ]
+  },
+  {
+    "id": 42,
+    "text": "She uttered a sound rather like an elephant taking its foot out of a mud hole in a Burmese teak forest.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": [
+      "simile",
+      "Bertie",
+      "Aunt Dahlia",
+      "sound"
+    ]
+  },
+  {
+    "id": 43,
+    "text": "Like so many substantial Americans, he had married young and kept on marrying, springing from blonde to blonde like the chamois of the Alps leaping from crag to crag.",
+    "character": "Narrator",
+    "book": "Summer Moonshine",
+    "year": 1937,
+    "format": "simile",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": [
+      "simile",
+      "Americans",
+      "marriage"
+    ]
+  },
+  {
+    "id": 44,
+    "text": "I could see that, if not actually disgruntled, he was far from being gruntled.",
+    "character": "Bertie",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "setup_quote",
+    "setup": "Bertie, assessing the emotional weather at Totleigh Towers:",
+    "dialogue_response": null,
+    "tags": [
+      "Bertie",
+      "gruntled",
+      "wordplay",
+      "Bassett"
+    ]
+  },
+  {
+    "id": 45,
+    "text": "Into the face of the young man who sat on the terrace of the Hotel Magnifique at Cannes there had crept a look of furtive shame, the shifty, hangdog look which announces that an Englishman is about to talk French.",
+    "character": "Narrator",
+    "book": "The Luck of the Bodkins",
+    "year": 1935,
+    "format": "setup_quote",
+    "setup": "In one of the most celebrated opening sentences in English comic fiction:",
+    "dialogue_response": null,
+    "tags": [
+      "France",
+      "English",
+      "language",
+      "shame"
+    ]
+  },
+  {
+    "id": 46,
+    "text": "My Uncle George discovered that alcohol was a food well in advance of modern medical thought.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "setup_quote",
+    "setup": "Bertie, on his family's pioneering contribution to nutritional science:",
+    "dialogue_response": null,
+    "tags": [
+      "Bertie",
+      "Uncle George",
+      "alcohol",
+      "medicine"
+    ]
+  },
+  {
+    "id": 47,
+    "text": "The trouble with you, Spode, is that just because you have succeeded in inducing a handful of halfwits to disfigure the London scene by going about in black shorts, you think you're someone.",
+    "character": "Bertie",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "setup_quote",
+    "setup": "Bertie, deploying Jeeves's secret weapon against Roderick Spode:",
+    "dialogue_response": null,
+    "tags": [
+      "Bertie",
+      "Spode",
+      "black shorts",
+      "Eulalie"
+    ]
+  },
+  {
+    "id": 48,
+    "text": "Jeeves, what do ties matter at a time like this?",
+    "character": "Bertie",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "dialogue",
+    "setup": "On whether sartorial standards may be relaxed during a crisis:",
+    "dialogue_response": {
+      "text": "There is no time, sir, at which ties do not matter.",
+      "character": "Jeeves"
+    },
+    "tags": [
+      "dialogue",
+      "Jeeves",
+      "Bertie",
+      "ties",
+      "fashion"
+    ]
+  },
+  {
+    "id": 49,
+    "text": "You know, Jeeves, you're a genius.",
+    "character": "Bertie",
+    "book": "Very Good, Jeeves",
+    "year": 1930,
+    "format": "dialogue",
+    "setup": "Bertie, after yet another last-minute deliverance:",
+    "dialogue_response": {
+      "text": "I would not go so far as to say that, sir. I have certain gifts.",
+      "character": "Jeeves"
+    },
+    "tags": [
+      "dialogue",
+      "Jeeves",
+      "Bertie",
+      "genius",
+      "modesty"
+    ]
+  },
+  {
+    "id": 50,
+    "text": "Bertie, you are a fathead. An incredible ass.",
+    "character": "Aunt Agatha",
+    "book": "The Inimitable Jeeves",
+    "year": 1923,
+    "format": "dialogue",
+    "setup": "Aunt Agatha, delivering her annual assessment of Bertie's character:",
+    "dialogue_response": {
+      "text": "Yes, Aunt Agatha.",
+      "character": "Bertie"
+    },
+    "tags": [
+      "dialogue",
+      "Aunt Agatha",
+      "Bertie",
+      "fathead"
+    ]
+  },
+  {
+    "id": 51,
+    "text": "Jeeves, I want you to approach this matter with an open mind.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "dialogue",
+    "setup": "Bertie, softening up the resistance before presenting his plan:",
+    "dialogue_response": {
+      "text": "I shall endeavour to do so, sir, though I confess the effort presents certain difficulties.",
+      "character": "Jeeves"
+    },
+    "tags": [
+      "dialogue",
+      "Jeeves",
+      "Bertie",
+      "plans",
+      "open mind"
+    ]
+  },
+  {
+    "id": 52,
+    "text": "Jeeves, I have a feeling that Fate is against me.",
+    "character": "Bertie",
+    "book": "The Mating Season",
+    "year": 1949,
+    "format": "dialogue",
+    "setup": "Bertie, mid-crisis, seeking some form of moral support:",
+    "dialogue_response": {
+      "text": "It would perhaps be more accurate to say, sir, that the situation requires careful handling.",
+      "character": "Jeeves"
+    },
+    "tags": [
+      "dialogue",
+      "Jeeves",
+      "Bertie",
+      "fate",
+      "crisis"
+    ]
+  },
+  {
+    "id": 53,
+    "text": "Aunt Dahlia is the one aunt I can put up with. She hunts — or did when younger — and the effect of a life in the saddle has given her a carrying sort of voice that can be heard from a considerable distance.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "character_spotlight",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": [
+      "character_spotlight",
+      "Aunt Dahlia",
+      "Bertie",
+      "voice",
+      "hunting"
+    ]
+  },
+  {
+    "id": 54,
+    "text": "Gussie Fink-Nottle is a man who, having devoted his life to the study of the newt, has not always found the social graces coming naturally.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "character_spotlight",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": [
+      "character_spotlight",
+      "Gussie Fink-Nottle",
+      "Bertie",
+      "newts"
+    ]
+  },
+  {
+    "id": 55,
+    "text": "Tuppy Glossop is the sort of chap who, given a delicate situation, can be relied upon to select the most injurious course of action available and pursue it with enthusiasm.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "character_spotlight",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": [
+      "character_spotlight",
+      "Tuppy Glossop",
+      "Bertie",
+      "blundering"
+    ]
+  },
+  {
+    "id": 56,
+    "text": "Lord Emsworth is at his best in the company of pigs. Among human beings he achieves only a sort of wandering contentment; with the Empress of Blandings at his side he attains true serenity.",
+    "character": "Narrator",
+    "book": "Summer Lightning",
+    "year": 1929,
+    "format": "character_spotlight",
+    "setup": null,
+    "dialogue_response": null,
+    "tags": [
+      "character_spotlight",
+      "Lord Emsworth",
+      "Blandings",
+      "Empress",
+      "pigs"
+    ]
+  },
+  {
+    "id": 57,
+    "text": "It is no use telling me there are bad aunts and good aunts. At the core they are all alike. Sooner or later, out pops the cloven hoof.",
+    "character": "Bertie",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "situation",
+    "setup": "On the fundamental nature of aunts:",
+    "dialogue_response": null,
+    "tags": [
+      "situation",
+      "Bertie",
+      "aunts",
+      "philosophy"
+    ]
+  },
+  {
+    "id": 58,
+    "text": "The fascination of shooting as a sport depends almost wholly on whether you are at the right or wrong end of the gun.",
+    "character": "Narrator",
+    "book": "The Adventures of Sally",
+    "year": 1922,
+    "format": "situation",
+    "setup": "On the matter of field sports:",
+    "dialogue_response": null,
+    "tags": [
+      "situation",
+      "shooting",
+      "sport",
+      "perspective"
+    ]
+  },
+  {
+    "id": 59,
+    "text": "Jeeves is always right. This is not a conclusion I have reached lightly. It is the fruit of long and frequently painful experience.",
+    "character": "Bertie",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "situation",
+    "setup": "Bertie, reflecting on his valet with the wisdom of hard-won experience:",
+    "dialogue_response": null,
+    "tags": [
+      "situation",
+      "Bertie",
+      "Jeeves",
+      "experience"
+    ]
+  },
+  {
+    "id": 60,
+    "text": "I am not a man who gives his heart readily, but, once given, you can rely on Bertram Wooster to see the thing through if he has to do it on his hands and knees through broken glass.",
+    "character": "Bertie",
+    "book": "The Code of the Woosters",
+    "year": 1938,
+    "format": "situation",
+    "setup": "Bertie, on the depth of his personal loyalty:",
+    "dialogue_response": null,
+    "tags": [
+      "situation",
+      "Bertie",
+      "loyalty",
+      "character"
+    ]
+  },
+  {
+    "id": 61,
+    "text": "I could see that Fate had been getting the short end of it from the start and was in no mood to make allowances for human frailty.",
+    "character": "Bertie",
+    "book": "Right Ho, Jeeves",
+    "year": 1934,
+    "format": "situation",
+    "setup": "Bertie, surveying the wreckage of his latest scheme:",
+    "dialogue_response": null,
+    "tags": [
+      "situation",
+      "Bertie",
+      "fate",
+      "schemes"
+    ]
+  },
+  {
+    "id": 62,
+    "text": "I just sit at a typewriter and curse a bit.",
+    "character": "Pelham Grenville Wodehouse",
+    "book": "Performing Flea",
+    "year": 1953,
+    "format": "wildcard",
+    "setup": "Wodehouse, asked to describe his writing process:",
+    "dialogue_response": null,
+    "tags": [
+      "wildcard",
+      "Wodehouse",
+      "writing",
+      "meta"
+    ]
+  },
+  {
+    "id": 63,
+    "text": "An author who expects results from a first novel is in a position of a man who drops a rose petal down the Grand Canyon of Arizona and listens for the echo.",
+    "character": "Pelham Grenville Wodehouse",
+    "book": "Performing Flea",
+    "year": 1953,
+    "format": "wildcard",
+    "setup": "Wodehouse, on the expectations appropriate to a debut novelist:",
+    "dialogue_response": null,
+    "tags": [
+      "wildcard",
+      "Wodehouse",
+      "writing",
+      "publishing",
+      "humility"
+    ]
+  },
+  {
+    "id": 64,
+    "text": "Every author really wants to have letters printed in the papers. Unable to make the grade, he drops down a rung of the ladder and writes novels.",
+    "character": "Pelham Grenville Wodehouse",
+    "book": "Performing Flea",
+    "year": 1953,
+    "format": "wildcard",
+    "setup": "Wodehouse, on the novelist's position in the literary pecking order:",
+    "dialogue_response": null,
+    "tags": [
+      "wildcard",
+      "Wodehouse",
+      "writing",
+      "novels",
+      "letters"
+    ]
+  },
+  {
+    "id": 65,
+    "text": "I believe there are two ways of writing novels. One is mine, making a sort of musical comedy without music and ignoring real life altogether; the other is going right deep down into life and not caring a damn.",
+    "character": "Pelham Grenville Wodehouse",
+    "book": "Performing Flea",
+    "year": 1953,
+    "format": "wildcard",
+    "setup": "Wodehouse, on the two schools of novel-writing and which camp he occupies:",
+    "dialogue_response": null,
+    "tags": [
+      "wildcard",
+      "Wodehouse",
+      "writing",
+      "novels",
+      "realism"
+    ]
+  },
+  {
+    "id": 66,
+    "text": "I have found in life that a little inexactitude saves a world of explanation.",
+    "character": "Galahad Threepwood",
+    "book": "Summer Lightning",
+    "year": 1929,
+    "format": "wildcard",
+    "setup": "The Hon. Galahad Threepwood, on the practical advantages of imprecision:",
+    "dialogue_response": null,
+    "tags": [
+      "wildcard",
+      "Galahad",
+      "Blandings",
+      "inexactitude",
+      "wisdom"
+    ]
   }
 ]
