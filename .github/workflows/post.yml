@@ -9,6 +9,9 @@ on:
 jobs:
   post:
     runs-on: ubuntu-latest
+    concurrency:
+      group: wodehouse-bot-post
+      cancel-in-progress: false
     permissions:
       contents: write
     steps:
@@ -32,5 +35,18 @@ jobs:
           git config user.name "wodehouse-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data/posted.json
-          git diff --cached --quiet || git commit -m "chore: update posted history"
-          git push
+          if git diff --cached --quiet; then
+            echo "Nothing to commit — posted.json unchanged."
+            exit 0
+          fi
+          git commit -m "chore: update posted history"
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Push succeeded on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push failed (attempt ${attempt}/3); pulling with rebase..."
+            git pull --rebase
+          done
+          echo "ERROR: all 3 push attempts failed — posted history not saved."
+          exit 1
