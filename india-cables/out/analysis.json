@@ -1,0 +1,1097 @@
+{
+  "snapshot": "2022-04-25T15:12:03-04:00",
+  "landing_points": [
+    {
+      "id": "mumbai-india",
+      "name": "Mumbai",
+      "lon": 72.87586599999972,
+      "lat": 19.07608000000056,
+      "andaman_nicobar": false,
+      "international": [
+        "2africa",
+        "asia-africa-europe-1-aae-1",
+        "bay-of-bengal-gateway-bbg",
+        "europe-india-gateway-eig",
+        "falcon",
+        "flag-europe-asia-fea",
+        "gulf-bridge-international-cable-system-gbicsmiddle-east-north-africa-mena-cable-system",
+        "imewe",
+        "india-asia-xpress-iax",
+        "india-europe-xpress-iex",
+        "mist",
+        "raman",
+        "seacomtata-tgn-eurasia",
+        "seamewe-3",
+        "seamewe-4",
+        "seamewe-6"
+      ],
+      "domestic": [],
+      "international_planned": 6,
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa",
+        "Sri Lanka",
+        "South Asia (other)",
+        "Southeast Asia",
+        "East Asia",
+        "Australia"
+      ]
+    },
+    {
+      "id": "chennai-india",
+      "name": "Chennai",
+      "lon": 80.24304900000018,
+      "lat": 13.06391799999983,
+      "andaman_nicobar": false,
+      "international": [
+        "bay-of-bengal-gateway-bbg",
+        "i2i-cable-network-i2icn",
+        "india-asia-xpress-iax",
+        "mist",
+        "seamewe-4",
+        "tata-tgn-tata-indicom"
+      ],
+      "domestic": [
+        "chennai-andaman-nicobar-islands-cable"
+      ],
+      "international_planned": 2,
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa",
+        "Sri Lanka",
+        "South Asia (other)",
+        "Southeast Asia"
+      ]
+    },
+    {
+      "id": "cochin-india",
+      "name": "Cochin",
+      "lon": 76.2695514552781,
+      "lat": 9.938085366963747,
+      "andaman_nicobar": false,
+      "international": [
+        "safe",
+        "seamewe-3"
+      ],
+      "domestic": [],
+      "international_planned": 0,
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa",
+        "Sri Lanka",
+        "South Asia (other)",
+        "Southeast Asia",
+        "East Asia",
+        "Australia"
+      ]
+    },
+    {
+      "id": "trivendrum-india",
+      "name": "Trivendrum",
+      "lon": 76.97023455265756,
+      "lat": 8.79814420594613,
+      "andaman_nicobar": false,
+      "international": [
+        "falcon"
+      ],
+      "domestic": [],
+      "international_planned": 0,
+      "regions": [
+        "Middle East",
+        "Africa",
+        "Sri Lanka",
+        "South Asia (other)"
+      ]
+    },
+    {
+      "id": "tuticorine-india",
+      "name": "Tuticorine",
+      "lon": 78.14513606409648,
+      "lat": 8.802197481673602,
+      "andaman_nicobar": false,
+      "international": [
+        "bharat-lanka-cable-system"
+      ],
+      "domestic": [],
+      "international_planned": 0,
+      "regions": [
+        "Sri Lanka"
+      ]
+    },
+    {
+      "id": "car-nicobar-india",
+      "name": "Car Nicobar",
+      "lon": 92.81644398821717,
+      "lat": 9.177491191419136,
+      "andaman_nicobar": true,
+      "international": [],
+      "domestic": [
+        "chennai-andaman-nicobar-islands-cable"
+      ],
+      "international_planned": 0,
+      "regions": []
+    },
+    {
+      "id": "great-nicobar-india",
+      "name": "Great Nicobar",
+      "lon": 93.92740511526486,
+      "lat": 7.031330621106264,
+      "andaman_nicobar": true,
+      "international": [],
+      "domestic": [
+        "chennai-andaman-nicobar-islands-cable"
+      ],
+      "international_planned": 0,
+      "regions": []
+    },
+    {
+      "id": "havelock-india",
+      "name": "Havelock",
+      "lon": 92.98756203105867,
+      "lat": 11.97605767788474,
+      "andaman_nicobar": true,
+      "international": [],
+      "domestic": [
+        "chennai-andaman-nicobar-islands-cable"
+      ],
+      "international_planned": 0,
+      "regions": []
+    },
+    {
+      "id": "kamorta-india",
+      "name": "Kamorta",
+      "lon": 93.48140933746257,
+      "lat": 8.172231912838214,
+      "andaman_nicobar": true,
+      "international": [],
+      "domestic": [
+        "chennai-andaman-nicobar-islands-cable"
+      ],
+      "international_planned": 0,
+      "regions": []
+    },
+    {
+      "id": "little-andaman-india",
+      "name": "Little Andaman",
+      "lon": 92.59715703418706,
+      "lat": 10.709053093381414,
+      "andaman_nicobar": true,
+      "international": [],
+      "domestic": [
+        "chennai-andaman-nicobar-islands-cable"
+      ],
+      "international_planned": 0,
+      "regions": []
+    },
+    {
+      "id": "long-island-india",
+      "name": "Long Island",
+      "lon": 92.93507183386814,
+      "lat": 12.396491032226692,
+      "andaman_nicobar": true,
+      "international": [],
+      "domestic": [
+        "chennai-andaman-nicobar-islands-cable"
+      ],
+      "international_planned": 0,
+      "regions": []
+    },
+    {
+      "id": "port-blair-india",
+      "name": "Port Blair",
+      "lon": 92.72647823163769,
+      "lat": 11.623381524823145,
+      "andaman_nicobar": true,
+      "international": [],
+      "domestic": [
+        "chennai-andaman-nicobar-islands-cable"
+      ],
+      "international_planned": 0,
+      "regions": []
+    },
+    {
+      "id": "rangat-india",
+      "name": "Rangat",
+      "lon": 92.91385602858449,
+      "lat": 12.506947715390226,
+      "andaman_nicobar": true,
+      "international": [],
+      "domestic": [
+        "chennai-andaman-nicobar-islands-cable"
+      ],
+      "international_planned": 0,
+      "regions": []
+    }
+  ],
+  "cables": {
+    "2africa": {
+      "id": "2africa",
+      "name": "2Africa",
+      "rfs_year": 2023,
+      "is_planned": true,
+      "length": "45,000 km",
+      "owners": "China Mobile, MTN, Meta, Orange, Saudi Telecom, Telecom Egypt, Vodafone, WIOCC",
+      "indian_landing_points": [
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Luanda, Angola",
+        "Manama, Bahrain",
+        "Moroni, Comoros",
+        "Muanda, Congo, Dem. Rep.",
+        "Pointe-Noire, Congo, Rep.",
+        "Abidjan, Côte d'Ivoire",
+        "Djibouti City, Djibouti",
+        "Port Said, Egypt",
+        "Ras Ghareb, Egypt",
+        "Suez, Egypt",
+        "Zafarana, Egypt",
+        "Marseille, France",
+        "Libreville, Gabon",
+        "Accra, Ghana",
+        "Al Faw, Iraq",
+        "Genoa, Italy",
+        "Mombasa, Kenya",
+        "Kuwait City, Kuwait",
+        "Mahajanga, Madagascar",
+        "Maputo, Mozambique",
+        "Nacala, Mozambique",
+        "Kwa Ibo, Nigeria",
+        "Lagos, Nigeria",
+        "Barka, Oman",
+        "Salalah, Oman",
+        "Karachi, Pakistan",
+        "Carcavelos, Portugal",
+        "Doha, Qatar",
+        "Al Khobar, Saudi Arabia",
+        "Duba, Saudi Arabia",
+        "Jeddah, Saudi Arabia",
+        "Yanbu, Saudi Arabia",
+        "Dakar, Senegal",
+        "Carana, Seychelles",
+        "Mogadishu, Somalia",
+        "Cape Town, South Africa",
+        "Mtunzini, South Africa",
+        "Port Elizabeth, South Africa",
+        "Barcelona, Spain",
+        "Gran Canaria, Canary Islands, Spain",
+        "Port Sudan, Sudan",
+        "Dar Es Salaam, Tanzania",
+        "Abu Dhabi, United Arab Emirates",
+        "Kalba, United Arab Emirates",
+        "Bude, United Kingdom"
+      ],
+      "foreign_countries": [
+        "Angola",
+        "Bahrain",
+        "Comoros",
+        "Congo, Dem. Rep.",
+        "Congo, Rep.",
+        "Côte d'Ivoire",
+        "Djibouti",
+        "Egypt",
+        "France",
+        "Gabon",
+        "Ghana",
+        "Iraq",
+        "Italy",
+        "Kenya",
+        "Kuwait",
+        "Madagascar",
+        "Mozambique",
+        "Nigeria",
+        "Oman",
+        "Pakistan",
+        "Portugal",
+        "Qatar",
+        "Saudi Arabia",
+        "Senegal",
+        "Seychelles",
+        "Somalia",
+        "South Africa",
+        "Spain",
+        "Sudan",
+        "Tanzania",
+        "United Arab Emirates",
+        "United Kingdom"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa",
+        "South Asia (other)"
+      ],
+      "domestic_only": false
+    },
+    "asia-africa-europe-1-aae-1": {
+      "id": "asia-africa-europe-1-aae-1",
+      "name": "Asia Africa Europe-1 (AAE-1)",
+      "rfs_year": 2017,
+      "is_planned": false,
+      "length": "25,000 km",
+      "owners": "China Unicom, Djibouti Telecom, Etisalat UAE, Hyalroute, Metfone, Mobily, National Telecom, OTEGLOBE, Omantel, Ooredoo, PCCW, Pakistan Telecommunications Company Ltd., Reliance Jio Infocomm, Retelit, TIME dotCom, TeleYemen, Telecom Egypt, VNPT International, Viettel Corporation",
+      "indian_landing_points": [
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Sihanoukville, Cambodia",
+        "Cape D’Aguilar, China",
+        "Djibouti City, Djibouti",
+        "Abu Talat, Egypt",
+        "Zafarana, Egypt",
+        "Marseille, France",
+        "Chania, Greece",
+        "Bari, Italy",
+        "Butterworth, Malaysia",
+        "Ngwe Saung, Myanmar",
+        "Al Bustan, Oman",
+        "Karachi, Pakistan",
+        "Doha, Qatar",
+        "Jeddah, Saudi Arabia",
+        "Satun, Thailand",
+        "Songkhla, Thailand",
+        "Fujairah, United Arab Emirates",
+        "Vung Tau, Vietnam",
+        "Aden, Yemen"
+      ],
+      "foreign_countries": [
+        "Cambodia",
+        "China",
+        "Djibouti",
+        "Egypt",
+        "France",
+        "Greece",
+        "Italy",
+        "Malaysia",
+        "Myanmar",
+        "Oman",
+        "Pakistan",
+        "Qatar",
+        "Saudi Arabia",
+        "Thailand",
+        "United Arab Emirates",
+        "Vietnam",
+        "Yemen"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa",
+        "South Asia (other)",
+        "Southeast Asia",
+        "East Asia"
+      ],
+      "domestic_only": false
+    },
+    "bay-of-bengal-gateway-bbg": {
+      "id": "bay-of-bengal-gateway-bbg",
+      "name": "Bay of Bengal Gateway (BBG)",
+      "rfs_year": 2016,
+      "is_planned": false,
+      "length": "8,100 km",
+      "owners": "AT&T, China Telecom, Dialog Axiata, Etisalat UAE, Omantel, Reliance Jio Infocomm, Telekom Malaysia, Telstra, Vodafone",
+      "indian_landing_points": [
+        "chennai-india",
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Penang, Malaysia",
+        "Barka, Oman",
+        "Ratmalana, Sri Lanka",
+        "Fujairah, United Arab Emirates"
+      ],
+      "foreign_countries": [
+        "Malaysia",
+        "Oman",
+        "Sri Lanka",
+        "United Arab Emirates"
+      ],
+      "regions": [
+        "Middle East",
+        "Sri Lanka",
+        "Southeast Asia"
+      ],
+      "domestic_only": false
+    },
+    "bharat-lanka-cable-system": {
+      "id": "bharat-lanka-cable-system",
+      "name": "Bharat Lanka Cable System",
+      "rfs_year": 2006,
+      "is_planned": false,
+      "length": "325 km",
+      "owners": "Bharat Sanchar Nigam Ltd. (BSNL), Sri Lanka Telecom",
+      "indian_landing_points": [
+        "tuticorine-india"
+      ],
+      "foreign_landing_points": [
+        "Mt. Lavinia, Sri Lanka"
+      ],
+      "foreign_countries": [
+        "Sri Lanka"
+      ],
+      "regions": [
+        "Sri Lanka"
+      ],
+      "domestic_only": false
+    },
+    "chennai-andaman-nicobar-islands-cable": {
+      "id": "chennai-andaman-nicobar-islands-cable",
+      "name": "Chennai-Andaman & Nicobar Islands Cable",
+      "rfs_year": 2020,
+      "is_planned": false,
+      "length": "2,300 km",
+      "owners": "Bharat Sanchar Nigam Ltd. (BSNL)",
+      "indian_landing_points": [
+        "car-nicobar-india",
+        "chennai-india",
+        "great-nicobar-india",
+        "havelock-india",
+        "kamorta-india",
+        "little-andaman-india",
+        "long-island-india",
+        "port-blair-india",
+        "rangat-india"
+      ],
+      "foreign_landing_points": [],
+      "foreign_countries": [],
+      "regions": [],
+      "domestic_only": true
+    },
+    "europe-india-gateway-eig": {
+      "id": "europe-india-gateway-eig",
+      "name": "Europe India Gateway (EIG)",
+      "rfs_year": 2011,
+      "is_planned": false,
+      "length": "15,000 km",
+      "owners": "AT&T, Airtel (Bharti), Altice Portugal, BT, Bharat Sanchar Nigam Ltd. (BSNL), Djibouti Telecom, Gibtelecom, Libya International Telecommunications Company, MTN, Omantel, Saudi Telecom, Telecom Egypt, Telkom South Africa, Verizon, Vodafone, du",
+      "indian_landing_points": [
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Haramous, Djibouti",
+        "Abu Talat, Egypt",
+        "Zafarana, Egypt",
+        "Gibraltar, Gibraltar",
+        "Tripoli, Libya",
+        "Monaco, Monaco",
+        "Barka, Oman",
+        "Sesimbra, Portugal",
+        "Jeddah, Saudi Arabia",
+        "Fujairah, United Arab Emirates",
+        "Bude, United Kingdom"
+      ],
+      "foreign_countries": [
+        "Djibouti",
+        "Egypt",
+        "Gibraltar",
+        "Libya",
+        "Monaco",
+        "Oman",
+        "Portugal",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "United Kingdom"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa"
+      ],
+      "domestic_only": false
+    },
+    "falcon": {
+      "id": "falcon",
+      "name": "FALCON",
+      "rfs_year": 2006,
+      "is_planned": false,
+      "length": "10,300 km",
+      "owners": "Global Cloud Xchange",
+      "indian_landing_points": [
+        "mumbai-india",
+        "trivendrum-india"
+      ],
+      "foreign_landing_points": [
+        "Manama, Bahrain",
+        "Suez, Egypt",
+        "Bandar Abbas, Iran",
+        "Chabahar, Iran",
+        "Al Faw, Iraq",
+        "Al Safat, Kuwait",
+        "Male, Maldives",
+        "Al Seeb, Oman",
+        "Khasab, Oman",
+        "Doha, Qatar",
+        "Al Khobar, Saudi Arabia",
+        "Jeddah, Saudi Arabia",
+        "Colombo, Sri Lanka",
+        "Port Sudan, Sudan",
+        "Dubai, United Arab Emirates",
+        "Al Ghaydah, Yemen",
+        "Al Hudaydah, Yemen"
+      ],
+      "foreign_countries": [
+        "Bahrain",
+        "Egypt",
+        "Iran",
+        "Iraq",
+        "Kuwait",
+        "Maldives",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "Sri Lanka",
+        "Sudan",
+        "United Arab Emirates",
+        "Yemen"
+      ],
+      "regions": [
+        "Middle East",
+        "Africa",
+        "Sri Lanka",
+        "South Asia (other)"
+      ],
+      "domestic_only": false
+    },
+    "flag-europe-asia-fea": {
+      "id": "flag-europe-asia-fea",
+      "name": "FLAG Europe-Asia (FEA)",
+      "rfs_year": 1997,
+      "is_planned": false,
+      "length": "28,000 km",
+      "owners": "Global Cloud Xchange",
+      "indian_landing_points": [
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Lantau Island, China",
+        "Nanhui, China",
+        "Alexandria, Egypt",
+        "Suez, Egypt",
+        "Palermo, Italy",
+        "Miura, Japan",
+        "Aqaba, Jordan",
+        "Penang, Malaysia",
+        "Jeddah, Saudi Arabia",
+        "Geoje, South Korea",
+        "Estepona, Spain",
+        "Satun, Thailand",
+        "Songkhla, Thailand",
+        "Fujairah, United Arab Emirates",
+        "Porthcurno, United Kingdom"
+      ],
+      "foreign_countries": [
+        "China",
+        "Egypt",
+        "Italy",
+        "Japan",
+        "Jordan",
+        "Malaysia",
+        "Saudi Arabia",
+        "South Korea",
+        "Spain",
+        "Thailand",
+        "United Arab Emirates",
+        "United Kingdom"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa",
+        "Southeast Asia",
+        "East Asia"
+      ],
+      "domestic_only": false
+    },
+    "gulf-bridge-international-cable-system-gbicsmiddle-east-north-africa-mena-cable-system": {
+      "id": "gulf-bridge-international-cable-system-gbicsmiddle-east-north-africa-mena-cable-system",
+      "name": "Gulf Bridge International Cable System (GBICS)/Middle East North Africa (MENA) Cable System",
+      "rfs_year": 2012,
+      "is_planned": false,
+      "length": "5,270 km",
+      "owners": "Gulf Bridge International",
+      "indian_landing_points": [
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Al Hidd, Bahrain",
+        "Bushehr, Iran",
+        "Al Faw, Iraq",
+        "Kuwait City, Kuwait",
+        "Al Seeb, Oman",
+        "Al Daayen, Qatar",
+        "Al Khobar, Saudi Arabia",
+        "Fujairah, United Arab Emirates"
+      ],
+      "foreign_countries": [
+        "Bahrain",
+        "Iran",
+        "Iraq",
+        "Kuwait",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "domestic_only": false
+    },
+    "i2i-cable-network-i2icn": {
+      "id": "i2i-cable-network-i2icn",
+      "name": "i2i Cable Network (i2icn)",
+      "rfs_year": 2002,
+      "is_planned": false,
+      "length": "3,200 km",
+      "owners": "Airtel (Bharti)",
+      "indian_landing_points": [
+        "chennai-india"
+      ],
+      "foreign_landing_points": [
+        "Tuas, Singapore"
+      ],
+      "foreign_countries": [
+        "Singapore"
+      ],
+      "regions": [
+        "Southeast Asia"
+      ],
+      "domestic_only": false
+    },
+    "imewe": {
+      "id": "imewe",
+      "name": "IMEWE",
+      "rfs_year": 2010,
+      "is_planned": false,
+      "length": "12,091 km",
+      "owners": "Airtel (Bharti), Etisalat UAE, Ogero, Orange, Pakistan Telecommunications Company Ltd., Saudi Telecom, Tata Communications, Telecom Egypt, Telecom Italia Sparkle",
+      "indian_landing_points": [
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Alexandria, Egypt",
+        "Suez, Egypt",
+        "Marseille, France",
+        "Catania, Italy",
+        "Tripoli, Lebanon",
+        "Karachi, Pakistan",
+        "Jeddah, Saudi Arabia",
+        "Fujairah, United Arab Emirates"
+      ],
+      "foreign_countries": [
+        "Egypt",
+        "France",
+        "Italy",
+        "Lebanon",
+        "Pakistan",
+        "Saudi Arabia",
+        "United Arab Emirates"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa",
+        "South Asia (other)"
+      ],
+      "domestic_only": false
+    },
+    "india-asia-xpress-iax": {
+      "id": "india-asia-xpress-iax",
+      "name": "India Asia Xpress (IAX)",
+      "rfs_year": 2023,
+      "is_planned": true,
+      "length": "5,791 km",
+      "owners": "Reliance Jio Infocomm",
+      "indian_landing_points": [
+        "chennai-india",
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Morib, Malaysia",
+        "Hulhumale, Maldives",
+        "Tuas, Singapore",
+        "Matara, Sri Lanka",
+        "Satun, Thailand"
+      ],
+      "foreign_countries": [
+        "Malaysia",
+        "Maldives",
+        "Singapore",
+        "Sri Lanka",
+        "Thailand"
+      ],
+      "regions": [
+        "Sri Lanka",
+        "South Asia (other)",
+        "Southeast Asia"
+      ],
+      "domestic_only": false
+    },
+    "india-europe-xpress-iex": {
+      "id": "india-europe-xpress-iex",
+      "name": "India Europe Xpress (IEX)",
+      "rfs_year": 2024,
+      "is_planned": true,
+      "length": "9,775 km",
+      "owners": "Reliance Jio Infocomm",
+      "indian_landing_points": [
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Djibouti City, Djibouti",
+        "Sidi Kerir, Egypt",
+        "Zafarana, Egypt",
+        "Timpaki, Greece",
+        "Savona, Italy",
+        "Salalah, Oman",
+        "Duba, Saudi Arabia",
+        "Yanbu, Saudi Arabia"
+      ],
+      "foreign_countries": [
+        "Djibouti",
+        "Egypt",
+        "Greece",
+        "Italy",
+        "Oman",
+        "Saudi Arabia"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa"
+      ],
+      "domestic_only": false
+    },
+    "mist": {
+      "id": "mist",
+      "name": "MIST",
+      "rfs_year": 2023,
+      "is_planned": true,
+      "length": "8,100 km",
+      "owners": "Orient Link",
+      "indian_landing_points": [
+        "chennai-india",
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Morib, Malaysia",
+        "Letkokkon, Myanmar",
+        "Tuas, Singapore"
+      ],
+      "foreign_countries": [
+        "Malaysia",
+        "Myanmar",
+        "Singapore"
+      ],
+      "regions": [
+        "Southeast Asia"
+      ],
+      "domestic_only": false
+    },
+    "raman": {
+      "id": "raman",
+      "name": "Raman",
+      "rfs_year": 2024,
+      "is_planned": true,
+      "length": null,
+      "owners": "Google, Omantel, Telecom Italia Sparkle",
+      "indian_landing_points": [
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Haramous, Djibouti",
+        "Aqaba, Jordan",
+        "Barka, Oman",
+        "Salalah, Oman",
+        "Duba, Saudi Arabia"
+      ],
+      "foreign_countries": [
+        "Djibouti",
+        "Jordan",
+        "Oman",
+        "Saudi Arabia"
+      ],
+      "regions": [
+        "Middle East",
+        "Africa"
+      ],
+      "domestic_only": false
+    },
+    "safe": {
+      "id": "safe",
+      "name": "SAFE",
+      "rfs_year": 2002,
+      "is_planned": false,
+      "length": "13,500 km",
+      "owners": "AT&T, Angola Telecom, BICS, Camtel, China Telecom, Chunghwa Telecom, Ghana Telecommunications Company, KPN, KT, Liquid Intelligent Technologies, Maroc Telecom, Mauritius Telecom, NATCOM (Nigeria), OPT, Orange, Orange Cote d’Ivoire, PCCW, Singtel, Sonatel, T-Mobile, Tata Communications, Telecom Italia Sparkle, Telecom Namibia, Telefonica, Telekom Malaysia, Telkom South Africa, Telstra, Verizon, Vodafone",
+      "indian_landing_points": [
+        "cochin-india"
+      ],
+      "foreign_landing_points": [
+        "Penang, Malaysia",
+        "Baie Jacotet, Mauritius",
+        "Saint Paul, Réunion",
+        "Melkbosstrand, South Africa",
+        "Mtunzini, South Africa"
+      ],
+      "foreign_countries": [
+        "Malaysia",
+        "Mauritius",
+        "Réunion",
+        "South Africa"
+      ],
+      "regions": [
+        "Africa",
+        "Southeast Asia"
+      ],
+      "domestic_only": false
+    },
+    "seacomtata-tgn-eurasia": {
+      "id": "seacomtata-tgn-eurasia",
+      "name": "SEACOM/Tata TGN-Eurasia",
+      "rfs_year": 2009,
+      "is_planned": false,
+      "length": "15,000 km",
+      "owners": "SEACOM, Tata Communications",
+      "indian_landing_points": [
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Djibouti City, Djibouti",
+        "Zafarana, Egypt",
+        "Mombasa, Kenya",
+        "Maputo, Mozambique",
+        "Jeddah, Saudi Arabia",
+        "Mtunzini, South Africa",
+        "Dar Es Salaam, Tanzania"
+      ],
+      "foreign_countries": [
+        "Djibouti",
+        "Egypt",
+        "Kenya",
+        "Mozambique",
+        "Saudi Arabia",
+        "South Africa",
+        "Tanzania"
+      ],
+      "regions": [
+        "Middle East",
+        "Africa"
+      ],
+      "domestic_only": false
+    },
+    "seamewe-3": {
+      "id": "seamewe-3",
+      "name": "SeaMeWe-3",
+      "rfs_year": 1999,
+      "is_planned": false,
+      "length": "39,000 km",
+      "owners": "A1 Telekom Austria, AT&T, Altice Portugal, BICS, BT, CTM, China Telecom, Chunghwa Telecom, Cyta, Deutsche Telekom, Djibouti Telecom, Embratel, Etisalat UAE, Indosat Ooredoo, Jabatan Telecom Brunei, KDDI, KPN, KT, LG Uplus, Maroc Telecom, Myanmar Post and Telecommunication (MPT), National Telecom, OTEGLOBE, Omantel, Orange, Orange Polska, PCCW, PLDT, Pakistan Telecommunications Company Ltd., Rostelecom, Saudi Telecom, Singtel, Singtel Optus, Softbank Corp, Sri Lanka Telecom, Tata Communications, Telecom Argentina, Telecom Egypt, Telecom Italia Sparkle, Telekom Malaysia, Telkom South Africa, Telstra, Tunisia Telecom, Turk Telekom, Turk Telekom International, Ukrtelecom, VNPT International, Verizon, Vocus Communications, Vodafone, eir",
+      "indian_landing_points": [
+        "cochin-india",
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Perth, WA, Australia",
+        "Ostend, Belgium",
+        "Tungku, Brunei",
+        "Deep Water Bay, China",
+        "Shanghai, China",
+        "Shantou, China",
+        "Taipa, China",
+        "Yeroskipos, Cyprus",
+        "Djibouti City, Djibouti",
+        "Alexandria, Egypt",
+        "Suez, Egypt",
+        "Penmarch, France",
+        "Chania, Greece",
+        "Ancol, Indonesia",
+        "Medan, Indonesia",
+        "Mazara del Vallo, Italy",
+        "Okinawa, Japan",
+        "Mersing, Malaysia",
+        "Penang, Malaysia",
+        "Tétouan, Morocco",
+        "Pyapon, Myanmar",
+        "Muscat, Oman",
+        "Karachi, Pakistan",
+        "Batangas, Philippines",
+        "Sesimbra, Portugal",
+        "Jeddah, Saudi Arabia",
+        "Tuas, Singapore",
+        "Geoje, South Korea",
+        "Mt. Lavinia, Sri Lanka",
+        "Fangshan, Taiwan",
+        "Toucheng, Taiwan",
+        "Satun, Thailand",
+        "Marmaris, Turkey",
+        "Fujairah, United Arab Emirates",
+        "Goonhilly Downs, United Kingdom",
+        "Danang, Vietnam"
+      ],
+      "foreign_countries": [
+        "Australia",
+        "Belgium",
+        "Brunei",
+        "China",
+        "Cyprus",
+        "Djibouti",
+        "Egypt",
+        "France",
+        "Greece",
+        "Indonesia",
+        "Italy",
+        "Japan",
+        "Malaysia",
+        "Morocco",
+        "Myanmar",
+        "Oman",
+        "Pakistan",
+        "Philippines",
+        "Portugal",
+        "Saudi Arabia",
+        "Singapore",
+        "South Korea",
+        "Sri Lanka",
+        "Taiwan",
+        "Thailand",
+        "Turkey",
+        "United Arab Emirates",
+        "United Kingdom",
+        "Vietnam"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa",
+        "Sri Lanka",
+        "South Asia (other)",
+        "Southeast Asia",
+        "East Asia",
+        "Australia"
+      ],
+      "domestic_only": false
+    },
+    "seamewe-4": {
+      "id": "seamewe-4",
+      "name": "SeaMeWe-4",
+      "rfs_year": 2005,
+      "is_planned": false,
+      "length": "20,000 km",
+      "owners": "Airtel (Bharti), Algerie Telecom, Bangladesh Submarine Cable Company Limited (BSCCL), Etisalat UAE, National Telecom, Orange, Pakistan Telecommunications Company Ltd., Saudi Telecom, Singtel, Sri Lanka Telecom, Tata Communications, Telecom Egypt, Telecom Italia Sparkle, Telekom Malaysia, Tunisia Telecom, Verizon",
+      "indian_landing_points": [
+        "chennai-india",
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Annaba, Algeria",
+        "Cox’s Bazar, Bangladesh",
+        "Alexandria, Egypt",
+        "Suez, Egypt",
+        "Marseille, France",
+        "Palermo, Italy",
+        "Melaka, Malaysia",
+        "Karachi, Pakistan",
+        "Jeddah, Saudi Arabia",
+        "Tuas, Singapore",
+        "Colombo, Sri Lanka",
+        "Satun, Thailand",
+        "Bizerte, Tunisia",
+        "Fujairah, United Arab Emirates"
+      ],
+      "foreign_countries": [
+        "Algeria",
+        "Bangladesh",
+        "Egypt",
+        "France",
+        "Italy",
+        "Malaysia",
+        "Pakistan",
+        "Saudi Arabia",
+        "Singapore",
+        "Sri Lanka",
+        "Thailand",
+        "Tunisia",
+        "United Arab Emirates"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa",
+        "Sri Lanka",
+        "South Asia (other)",
+        "Southeast Asia"
+      ],
+      "domestic_only": false
+    },
+    "seamewe-6": {
+      "id": "seamewe-6",
+      "name": "SeaMeWe-6",
+      "rfs_year": 2025,
+      "is_planned": true,
+      "length": "19,200 km",
+      "owners": "Airtel (Bharti), Bangladesh Submarine Cable Company Limited (BSCCL), Dhiraagu, Djibouti Telecom, Mobily, Orange, Singtel, Sri Lanka Telecom, Telecom Egypt, Telekom Malaysia, Telin, TransWorld",
+      "indian_landing_points": [
+        "mumbai-india"
+      ],
+      "foreign_landing_points": [
+        "Cox’s Bazar, Bangladesh",
+        "Djibouti City, Djibouti",
+        "Port Said, Egypt",
+        "Ras Ghareb, Egypt",
+        "Marseille, France",
+        "Morib, Malaysia",
+        "Hulhumale, Maldives",
+        "Karachi, Pakistan",
+        "Yanbu, Saudi Arabia",
+        "Tuas, Singapore",
+        "Matara, Sri Lanka"
+      ],
+      "foreign_countries": [
+        "Bangladesh",
+        "Djibouti",
+        "Egypt",
+        "France",
+        "Malaysia",
+        "Maldives",
+        "Pakistan",
+        "Saudi Arabia",
+        "Singapore",
+        "Sri Lanka"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa",
+        "Sri Lanka",
+        "South Asia (other)",
+        "Southeast Asia"
+      ],
+      "domestic_only": false
+    },
+    "tata-tgn-tata-indicom": {
+      "id": "tata-tgn-tata-indicom",
+      "name": "Tata TGN-Tata Indicom",
+      "rfs_year": 2004,
+      "is_planned": false,
+      "length": "3,175 km",
+      "owners": "Tata Communications",
+      "indian_landing_points": [
+        "chennai-india"
+      ],
+      "foreign_landing_points": [
+        "Changi North, Singapore"
+      ],
+      "foreign_countries": [
+        "Singapore"
+      ],
+      "regions": [
+        "Southeast Asia"
+      ],
+      "domestic_only": false
+    }
+  }
+}
