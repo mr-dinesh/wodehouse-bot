@@ -51,8 +51,9 @@ LABEL = {
     "tuticorine-india": ( 0.8,  3.4, "start"),
 }
 DISPLAY_NAME = {
-    "mumbai-india": "Mumbai", "chennai-india": "Chennai", "cochin-india": "Kochi",
-    "trivendrum-india": "Thiruvananthapuram", "tuticorine-india": "Thoothukudi",
+    # TeleGeography's own spellings, kept as-is (including Trivendrum / Tuticorine).
+    "mumbai-india": "Mumbai", "chennai-india": "Chennai", "cochin-india": "Cochin",
+    "trivendrum-india": "Trivendrum", "tuticorine-india": "Tuticorine",
     "port-blair-india": "Port Blair", "havelock-india": "Havelock", "long-island-india": "Long Island",
     "rangat-india": "Rangat", "little-andaman-india": "Little Andaman", "car-nicobar-india": "Car Nicobar",
     "kamorta-india": "Kamorta", "great-nicobar-india": "Great Nicobar",
@@ -62,9 +63,9 @@ ISLAND_LABEL_STEP = 4.3      # mm between stacked labels
 
 TITLE = "India's international submarine cables"
 SUBTITLE = "Where the cables that carry the country's overseas internet traffic come ashore"
-CAPTION = "Two coastal cities, most of a country's internet"
-CAPTION_2 = "18 of the 20 international cable systems landing in India come ashore at Mumbai or Chennai. " \
-            "Mumbai alone takes 16. Circles are scaled by cable count; the dashed line is the domestic " \
+CAPTION = "The cloud comes ashore here"
+CAPTION_2 = "India's overseas internet traffic rides 20 submarine cable systems. 18 of them land at Mumbai or Chennai, " \
+            "and Mumbai alone takes 16. Circles are scaled by cable count; the dashed line is the domestic " \
             "Chennai–Andaman & Nicobar system."
 ATTRIBUTION = "Data: TeleGeography submarine cable map, CC BY-NC-SA 3.0 (April 2022 snapshot). Coastlines: Natural Earth."
 

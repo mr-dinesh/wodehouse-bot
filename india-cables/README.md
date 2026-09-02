@@ -42,10 +42,10 @@ install the two .ttf files locally if you want cairosvg to use it for the PNG.
 |---|---|---|
 | Mumbai | 16 (6 planned as of 2022) | 0 |
 | Chennai | 6 (2 planned) | 1 |
-| Kochi | 2 | 0 |
-| Thiruvananthapuram | 1 | 0 |
-| Thoothukudi | 1 | 0 |
+| Cochin | 2 | 0 |
+| Trivendrum | 1 | 0 |
+| Tuticorine | 1 | 0 |
 | 8 Andaman & Nicobar sites | 0 | 1 each |
 
-Mumbai and Chennai together touch 18 of the 20 international systems; only SAFE (Kochi) and
-Bharat Lanka (Thoothukudi) miss both.
+Mumbai and Chennai together touch 18 of the 20 international systems; only SAFE (Cochin) and
+Bharat Lanka (Tuticorine) miss both.
